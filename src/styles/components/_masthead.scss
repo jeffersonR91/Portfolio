@@ -1,0 +1,25 @@
+.masthead {
+  background-color: burlywood;
+  padding: 80px 20px;
+  margin-bottom: 20px;
+
+  @media (min-width: 768px) {
+    background-color: black;
+  }
+}
+
+.masthead__title {
+  font-size: 32px;
+  text-align: center;
+  color: white;
+
+  @media (min-width: 768px) {
+    font-size: 42px;
+    color: red;
+  }
+}
+
+.masthead__description {
+  font-size: 18px;
+  color: blue;
+}
